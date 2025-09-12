@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Article extends Model
 {
     public $fillable = [
+        'id',
         'title',
         'content',
         'category_id',

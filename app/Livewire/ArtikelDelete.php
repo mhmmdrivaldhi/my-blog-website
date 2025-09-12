@@ -19,7 +19,7 @@ class ArtikelDelete extends Component
     {
         $artikel = Article::find($this->id);
 
-        if ($artikel->image != null) {
+        if ($artikel->image && Storage::disk('public')->exists('articles/' . $artikel->image)) {
             Storage::disk('public')->delete('articles/' . $artikel->image);
         }
 
