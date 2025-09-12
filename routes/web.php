@@ -4,12 +4,10 @@ use App\Livewire\ArticleCreate;
 use App\Livewire\ArticleDetail;
 use App\Livewire\ArticleEdit;
 use App\Livewire\ArticlePage;
-use App\Models\Article;
+use App\Livewire\HomaPage;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', HomaPage::class);
 
 Route::middleware([
     'auth:sanctum',
