@@ -1,4 +1,4 @@
-<div class="px-10 text-green-600 bg-gray-200 navbar">
+<div class="px-20 text-green-600 bg-gray-200 navbar">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -13,7 +13,7 @@
         <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Gallery</a></li>
       </ul>
     </div>
-    <a href="#" class="flex text-xl font-bold">R-FiTech</a>
+    <a href="#" class="flex text-xl font-bold letter-spacing-3"><span class="text-orange-600">R-</span>FitTech</a>
   </div>
   <div class="hidden navbar-center lg:flex">
     <ul class="px-1 menu menu-horizontal">
@@ -38,6 +38,5 @@
     <div class="flex items-center justify-center w-10 transition-colors duration-300 border-2 border-green-600 rounded-full aspect-square hover:bg-green-600 hover:text-white">
         <i class="fa-brands fa-telegram"></i>
     </div>
-
   </div>
 </div>
