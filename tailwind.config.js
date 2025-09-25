@@ -20,7 +20,7 @@ export default {
             },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-                jost: ['Jost', ...defaultTheme.fontFamily.serif],
+                jost: ['Jost', ...defaultTheme.fontFamily.sans],
             },
         },
     },
