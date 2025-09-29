@@ -13,7 +13,7 @@
         <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Gallery</a></li>
       </ul>
     </div>
-    <a href="#" class="flex text-xl font-bold letter-spacing-3"><span class="text-orange-600">R-</span>FitTech</a>
+    <a href="#" class="flex text-xl font-bold tracking-wider"><span class="text-orange-600">R-</span>FitTech</a>
   </div>
   <div class="hidden navbar-center lg:flex">
     <ul class="px-1 menu menu-horizontal">
