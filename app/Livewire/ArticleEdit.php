@@ -13,7 +13,7 @@ class ArticleEdit extends Component
 {
     use WithFileUploads;
 
-    public $article, $categories, $title, $content, $category_id, $status, $image;
+    public $article, $categories, $title, $content, $category_id, $status, $image, $is_trending;
 
     public function mount($slug)
     {
@@ -23,6 +23,7 @@ class ArticleEdit extends Component
         $this->category_id = $this->article->category_id;
         $this->status = $this->article->status;
         $this->content = $this->article->content;
+        $this->is_trending = $this->article->is_trending;
     }
 
 
@@ -76,6 +77,7 @@ class ArticleEdit extends Component
         $article->content = $this->content;
         $article->image = 'articles/' . $new_file_name;
         $article->slug = Str::slug($this->title);
+        $article->is_trending = $this->is_trending;
         $article->save();
 
         session()->flash('success', 'Article updated successfully!');

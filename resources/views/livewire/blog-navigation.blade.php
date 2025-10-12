@@ -19,12 +19,9 @@
     <ul class="px-1 menu menu-horizontal">
       <li><a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Home</a>
       </li>
-      <li>
-        <a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">About</a>
+      <li><a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Gallery</a>
       </li>
       <li><a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Contact</a>
-      </li>
-      <li><a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Gallery</a>
       </li>
     </ul>
   </div>
