@@ -13,3 +13,9 @@
 [x-cloak] {
     display: none;
 }
+
+@layer components {
+    .title {
+        @apply text-2xl font-semibold tracking-wider text-gray-900 md:text-3xl lg:text-2xl font-jost;
+    }
+}

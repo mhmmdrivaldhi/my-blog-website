@@ -7,7 +7,7 @@ use App\Livewire\ArticlePage;
 use App\Livewire\HomaPage;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', HomaPage::class);
+Route::get('/', HomaPage::class)->name('home');
 
 Route::middleware([
     'auth:sanctum',
