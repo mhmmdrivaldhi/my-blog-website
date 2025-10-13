@@ -22,7 +22,7 @@
 <body class="font-jost">
     @livewire('blog-navigation')
 
-    <main class="py-10 bg-gray-200">
+    <main class="py-10 pb-0 bg-gray-200">
         {{ $slot }}
     </main>
 

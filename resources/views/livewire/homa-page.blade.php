@@ -47,4 +47,9 @@
         @livewire('contact-blog')
     </div>
     {{-- End  Contact Blog --}}
+    {{-- Start Footer Blog --}}
+    <div class="pt-10">
+        @livewire('footer-blog')
+    </div>
+    {{-- End Footer Blog --}}
 </div>
