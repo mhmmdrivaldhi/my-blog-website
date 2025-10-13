@@ -8,7 +8,6 @@
         tabindex="0"
         class="p-2 mt-3 font-bold text-green-600 bg-gray-100 shadow menu menu-sm dropdown-content rounded-box z-1 w-52">
         <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Home</a></li>
-        <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">About</a></li>
         <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Contact</a></li>
         <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Gallery</a></li>
       </ul>
