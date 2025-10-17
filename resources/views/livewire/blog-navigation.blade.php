@@ -7,20 +7,20 @@
       <ul
         tabindex="0"
         class="p-2 mt-3 font-bold text-green-600 bg-gray-100 shadow menu menu-sm dropdown-content rounded-box z-1 w-52">
-        <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Home</a></li>
-        <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Contact</a></li>
-        <li><a href="#" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Gallery</a></li>
+        <li><a href="#home" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Home</a></li>
+        <li><a href="#contact" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Contact</a></li>
+        <li><a href="#gallery" class="transition-colors duration-300 hover:bg-green-600 hover:text-white">Gallery</a></li>
       </ul>
     </div>
     <a href="#" class="flex text-xl font-bold tracking-wider"><span class="text-orange-600">R-</span>FitTech</a>
   </div>
   <div class="hidden navbar-center lg:flex">
     <ul class="px-1 menu menu-horizontal">
-      <li><a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Home</a>
+      <li><a href="#home" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Home</a>
       </li>
-      <li><a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Gallery</a>
+      <li><a href="#gallery" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Gallery</a>
       </li>
-      <li><a href="#" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Contact</a>
+      <li><a href="#contact" class="font-bold tracking-wider after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-success after:transition-all after:duration-300 hover:after:w-full">Contact</a>
       </li>
     </ul>
   </div>
