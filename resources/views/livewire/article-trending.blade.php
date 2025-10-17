@@ -5,7 +5,7 @@
     </div>
     <div class="space-y-5">
         @foreach ($articles as $article)
-            <div class="grid gap-2 lg:gap-10 lg:grid-cols-3">
+            <div class="grid gap-2 lg:gap-10 lg:grid-cols-3" data-aos="fade-left" data-aos-duration="1000">
                 <div class="relative w-full h-full col-span-3 lg:col-span-1 bg-slate-300 rounded-xl">
                     <div class="absolute flex items-center justify-center w-8 h-8 bg-red-600 rounded-full -top-3 -left-3">
                         <i class="text-2xl text-gray-100 fa-solid fa-fire"></i>

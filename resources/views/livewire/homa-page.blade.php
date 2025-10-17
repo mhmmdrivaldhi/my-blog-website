@@ -1,7 +1,7 @@
 <div class="">
     <div class="space-y-5 text-green-600 lg:container">
         <div class="grid grid-cols-2 min-h-[70vh] px-5 place-items-center">
-            <div class="col-span-2 px-5 py-8 lg:col-span-1 lg:py-3 space-y-7">
+            <div class="col-span-2 px-5 py-8 lg:col-span-1 lg:py-3 space-y-7" data-aos="fade-down-right" data-aos-duration="1000">
                 <div class="flex flex-col items-center justify-center space-y-2 lg:items-start">
                     <div
                         class="flex items-center justify-center bg-black border-2 border-gray-500 rounded-full w-14 aspect-square">
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-span-2 p-5 lg:p-10 lg:col-span-1">
-                <img src="{{ asset('img/thumbnail-home.jpg') }}" class="object-cover w-full h-full rounded-2xl" alt="">
+                <img src="{{ asset('img/thumbnail-home.jpg') }}" class="object-cover w-full h-full rounded-2xl" data-aos="fade-down-left" data-aos-duration="1000" alt="">
             </div>
         </div>
 
