@@ -13,9 +13,13 @@
 [x-cloak] {
     display: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 @layer components {
+
     .title {
-        @apply text-2xl font-semibold tracking-wider text-gray-900 md:text-3xl lg:text-2xl font-jost;
+        @apply text-3xl font-semibold tracking-wider text-gray-900 lg:text-2xl font-jost;
     }
 }

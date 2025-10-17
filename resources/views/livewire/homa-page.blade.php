@@ -9,7 +9,7 @@
                     </div>
                     <div class="relative mb-4">
                         <h1 class="font-extrabold text-gray-900 lg:text-2xl">Muhammad Rivaldhi</h1>
-                        <small class="absolute font-sans text-gray-500 -right-[-1rem] lg:-right-[-106px]">Tech & Sport
+                        <small class="absolute font-sans text-gray-500 right-[-1rem] lg:-right-[-106px]">Tech & Sport
                             Enthusiast</small>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-12">
+        <div class="grid grid-cols-12" id="home">
             {{-- Start Article List --}}
             <div class="col-span-12 lg:col-span-8">
                 @livewire('article-list')
@@ -38,12 +38,12 @@
         </div>
     </div>
     {{-- Start Gallery Blog --}}
-    <div class="pt-10">
+    <div class="pt-10" id="gallery">
         @livewire('gallery-blog')
     </div>
     {{-- End Gallery Blog --}}
     {{-- Start Contact Blog --}}
-    <div class="pt-10">
+    <div class="pt-10" id="contact">
         @livewire('contact-blog')
     </div>
     {{-- End  Contact Blog --}}

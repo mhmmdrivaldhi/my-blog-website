@@ -23,7 +23,7 @@
 
         <!-- Styles -->
         @livewireStyles
-<body class="font-jost">
+<body class="overflow-x-hidden bg-gray-100 font-jost">
     @livewire('blog-navigation')
 
     <main class="py-10 pb-0 bg-gray-200">

@@ -17,7 +17,7 @@
                     <h1 class="text-2xl font-semibold tracking-wider lg:text-sm md:text-4xl">{{ $article->title }}</h1>
                     <small class="text-gray-500">{{ $article->publish_date }}</small>
                     <div>
-                        <a href="#" class="px-3 py-1 rounded-full btn btn-outline btn-primary btn-sm">Read More</a>
+                        <a href="/article/{{ $article->slug }}/detail" class="px-3 py-1 rounded-full btn btn-outline btn-primary btn-sm">Read More</a>
                     </div>
                 </div>
             </div>
